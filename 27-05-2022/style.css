@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    background-color: cornsilk;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    padding: 20px;
+}
+h1{
+    font-family: 'Tiro Bangla';
+    color: cadetblue;
+}
+p{
+    color: brown;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    width: 800px;
+}
+input{
+    margin-top: 20px;   
+
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 3%;
+    border-width: 1px; 
+
+}
+input:focus{
+    outline: none;
+}
+textarea{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 3%;
+    border-width: 1px; 
+}
+textarea:focus{
+    outline:none
+}
