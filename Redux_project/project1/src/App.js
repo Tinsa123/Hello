@@ -10,7 +10,7 @@ function App() {
   const[doList,setDoList]=useState(["gg","hh"])
 
   return (
-    <div className="container my-3">
+    <div className="container my-3 app ">
       <AddTask setTask={setTask} task={task} setDoList={setDoList} doList={doList}/>
 
       <Task doList={doList}/> 
