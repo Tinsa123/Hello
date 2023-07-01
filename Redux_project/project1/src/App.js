@@ -1,8 +1,8 @@
 import logo from "./logo.svg";
 import "./App.css";
-
+import Tasks from "./Components/tasks";
 import { useState } from "react";
-import Tasks from "./Components/Tasks"
+
 
 function App() {
   const[task,setTask]=useState("")
