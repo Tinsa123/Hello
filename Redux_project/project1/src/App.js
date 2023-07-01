@@ -1,6 +1,6 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Tasks from "./Components/tasks";
+import Task from "./Components/Task";
 import { useState } from "react";
 
 
@@ -40,7 +40,7 @@ function App() {
         </button>
       </form>
 
-      <Tasks doList={doList}/> 
+      <Task doList={doList}/> 
    
     </div>
   );

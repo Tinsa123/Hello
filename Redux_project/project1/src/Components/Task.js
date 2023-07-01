@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Tasks({doList}) {
+function Task({doList}) {
   return (
     <div style={{margin:"3rem 0"}}>
         <h1>Task</h1>
@@ -16,4 +16,4 @@ function Tasks({doList}) {
     </div>
   )
 }
-export default Tasks
+export default Task
