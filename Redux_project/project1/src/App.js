@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 
 import { useState } from "react";
-import Tasks from "./Components/Tasks";
+import Tasks from "./Components/Tasks"
 
 function App() {
   const[task,setTask]=useState("")
@@ -40,8 +40,8 @@ function App() {
         </button>
       </form>
 
-      {/* <Tasks doList={doList}/> */}
-      <Tasks
+      <Tasks doList={doList}/> 
+   
     </div>
   );
 }
