@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize');
 const express = require('express');
 
 const app = express();
-
+// helllo 
 const sequelize = new Sequelize('tinsa','root', 'Tinsa@11', {
     host: 'localhost',
     port:'3306',
